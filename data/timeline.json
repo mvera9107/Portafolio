@@ -1,0 +1,70 @@
+[
+  {
+    "id": "milestone-1",
+    "year": "[Agregar año]",
+    "title": "[Agregar título del hito]",
+    "company": "[Agregar empresa]",
+    "role": "[Agregar rol]",
+    "description": "[Agregar descripción del hito]",
+    "type": "career"
+  },
+  {
+    "id": "milestone-2",
+    "year": "[Agregar año]",
+    "title": "[Agregar título del hito]",
+    "company": "[Agregar empresa]",
+    "role": "[Agregar rol]",
+    "description": "[Agregar descripción del hito]",
+    "type": "career"
+  },
+  {
+    "id": "milestone-starbucks",
+    "year": "[Agregar año de inicio en ecosistema Starbucks]",
+    "title": "[Agregar título del rol]",
+    "company": "[Agregar empresa]",
+    "role": "[Agregar rol]",
+    "description": "Inicio de trabajo en el ecosistema digital de Starbucks. Proyectos: Pick Up, Favoritos, Nueva Home, Rewards/MTR, Historial de estrellas, Amigo Secreto.",
+    "type": "career",
+    "projects_related": ["pickup", "favoritos", "nueva-home", "rewards-mtr", "historial-estrellas", "amigo-secreto"]
+  },
+  {
+    "id": "milestone-ds",
+    "year": "[Agregar año]",
+    "title": "Design System",
+    "company": "[Agregar empresa]",
+    "role": "[Agregar rol]",
+    "description": "Desarrollo de design systems: DS Starbucks y DS Multimarca.",
+    "type": "career",
+    "projects_related": ["ds-starbucks", "ds-multimarca"]
+  },
+  {
+    "id": "milestone-research-2023",
+    "year": "2023",
+    "title": "Research partners 2023",
+    "company": "[Agregar empresa]",
+    "role": "[Agregar rol]",
+    "description": "[Agregar descripción del hito de investigación]",
+    "type": "research",
+    "projects_related": ["research-2023"]
+  },
+  {
+    "id": "milestone-research-2024",
+    "year": "2024",
+    "title": "Investigación estratégica 2024",
+    "company": "[Agregar empresa]",
+    "role": "[Agregar rol]",
+    "description": "[Agregar descripción del hito de investigación]",
+    "type": "research",
+    "projects_related": ["research-2024"]
+  },
+  {
+    "id": "milestone-research-2025",
+    "year": "2025",
+    "title": "Investigación 2025 MTR",
+    "company": "[Agregar empresa]",
+    "role": "[Agregar rol]",
+    "description": "[Agregar descripción del hito de investigación]",
+    "type": "research",
+    "projects_related": ["research-2025"]
+  }
+]

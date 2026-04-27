@@ -1,0 +1,63 @@
+{
+  "_note": "Estructura de muestra de un reporte semanal de diseño. El HTML de referencia está en: assets/screenshots/reportes-html/13 - 19 Abril.html",
+  "report": {
+    "id": "weekly-sample-001",
+    "period": {
+      "start": "13 Abril",
+      "end": "19 Abril",
+      "year": "[Agregar año]",
+      "week_number": "[Agregar número de semana]"
+    },
+    "author": "Miguel Vera",
+    "sections": [
+      {
+        "title": "Avances de la semana",
+        "type": "progress",
+        "items": [
+          {
+            "project": "[Agregar proyecto]",
+            "description": "[Agregar descripción del avance]",
+            "status": "[en progreso / completado / bloqueado]",
+            "evidence": "[Agregar link o referencia visual]"
+          }
+        ]
+      },
+      {
+        "title": "Decisiones tomadas",
+        "type": "decisions",
+        "items": [
+          {
+            "description": "[Agregar decisión]",
+            "rationale": "[Agregar justificación]",
+            "impact": "[Agregar impacto]"
+          }
+        ]
+      },
+      {
+        "title": "Pendientes para la siguiente semana",
+        "type": "next_steps",
+        "items": [
+          "[Agregar tarea pendiente]",
+          "[Agregar tarea pendiente]"
+        ]
+      },
+      {
+        "title": "Bloqueantes",
+        "type": "blockers",
+        "items": [
+          {
+            "description": "[Agregar bloqueante]",
+            "owner": "[Agregar responsable de resolverlo]"
+          }
+        ]
+      },
+      {
+        "title": "Métricas o datos relevantes",
+        "type": "metrics",
+        "items": [
+          { "label": "[Agregar métrica]", "value": "[Agregar valor]" }
+        ]
+      }
+    ]
+  }
+}

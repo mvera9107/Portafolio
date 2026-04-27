@@ -1,0 +1,244 @@
+{
+  "_generated": "2026-04-24",
+  "_description": "Inventario de todos los assets del portafolio: covers de proyectos, carpetas de screenshots y su contenido.",
+
+  "covers": {
+    "base_path": "assets/projects/",
+    "items": [
+      { "file": "rewards-mtr-cover.png", "project_id": "rewards-mtr", "project_title": "Rewards / Nuevo MTR" },
+      { "file": "pickup-cover.png",      "project_id": "pickup",       "project_title": "Pick Up" },
+      { "file": "favoritos-cover.png",   "project_id": "favoritos",    "project_title": "Favoritos" },
+      { "file": "nueva-home-cover.png",  "project_id": "nueva-home",   "project_title": "Nueva Home" },
+      { "file": "ds-starbucks-cover.png","project_id": "ds-starbucks", "project_title": "DS Starbucks" },
+      { "file": "ds-multimarca-cover.png","project_id": "ds-multimarca","project_title": "DS Multimarca" },
+      { "file": "historial-cover.png",   "project_id": "historial-estrellas","project_title": "Historial de estrellas" },
+      { "file": "research-2023-cover.png","project_id": "research-2023","project_title": "Research partners 2023" },
+      { "file": "research-2024-cover.png","project_id": "research-2024","project_title": "Investigación estratégica 2024" },
+      { "file": "research-2025-cover.png","project_id": "research-2025","project_title": "Investigación 2025 MTR" },
+      { "file": "reporte-cover.png",        "project_id": "reportes-html",   "project_title": "Reporte HTML" },
+      { "file": "amigo-secreto-cover.png", "project_id": "amigo-secreto",   "project_title": "Amigo Secreto" }
+    ],
+    "missing_covers": []
+  },
+
+  "screenshots": {
+    "base_path": "assets/screenshots/",
+    "folders": [
+      {
+        "folder": "rewards-mtr",
+        "project_id": "rewards-mtr",
+        "project_title": "Rewards / Nuevo MTR",
+        "has_content": true,
+        "count": 23,
+        "files": [
+          "Animation 5.png", "Animation 6.png", "Animation 7.png", "Animation 8.png",
+          "Bottomsheet-1.png", "Bottomsheet.png",
+          "Card 1.png", "Card 2.png",
+          "Home.png", "Log out.png",
+          "QR Canje.png", "QR-1.png", "QR-2.png", "QR-3.png", "QR.png",
+          "Recompensas-1.png", "Recompensas.png",
+          "Ver detalles-1.png", "Ver detalles-2.png", "Ver detalles-3.png", "Ver detalles-4.png", "Ver detalles.png",
+          "¿Cómo funciona_.png"
+        ]
+      },
+      {
+        "folder": "pickup",
+        "project_id": "pickup",
+        "project_title": "Pick Up",
+        "has_content": true,
+        "count": 12,
+        "files": [
+          "Agregar nueva dirección.png",
+          "Botón Delivery a-1.png", "Botón Delivery a-2.png", "Botón Delivery a.png",
+          "Carrito-1.png", "Carrito-2.png", "Carrito-3.png", "Carrito.png",
+          "Detalle de Producto-1.png", "Detalle de Producto.png",
+          "Menú.png", "Pedido Confirmado.png"
+        ]
+      },
+      {
+        "folder": "favoritos",
+        "project_id": "favoritos",
+        "project_title": "Favoritos",
+        "has_content": true,
+        "count": 7,
+        "files": [
+          "Agregar a Favoritos.png", "Carrito.png", "Checkout.png",
+          "Default.png", "Favoritos-1.png", "Favoritos.png", "Pedido entregado.png"
+        ]
+      },
+      {
+        "folder": "nueva-home",
+        "project_id": "nueva-home",
+        "project_title": "Nueva Home",
+        "has_content": true,
+        "count": 1,
+        "files": ["Home - Full.png"],
+        "note": "Solo 1 screenshot — considerar agregar más vistas del diseño"
+      },
+      {
+        "folder": "ds-starbucks",
+        "project_id": "ds-starbucks",
+        "project_title": "DS Starbucks",
+        "has_content": false,
+        "count": 0,
+        "files": [],
+        "note": "Carpeta vacía — agregar screenshots o exports del design system"
+      },
+      {
+        "folder": "ds-multimarca",
+        "project_id": "ds-multimarca",
+        "project_title": "DS Multimarca",
+        "has_content": false,
+        "count": 0,
+        "files": [],
+        "note": "Carpeta vacía — agregar screenshots o exports del design system"
+      },
+      {
+        "folder": "historial-estrellas",
+        "project_id": "historial-estrellas",
+        "project_title": "Historial de estrellas",
+        "has_content": true,
+        "count": 4,
+        "files": [
+          "Historial de estrellas.png", "Home.png", "Loading State.png", "Ver detalles.png"
+        ]
+      },
+      {
+        "folder": "research",
+        "project_id": "research-all",
+        "project_title": "Investigación (todos los años)",
+        "has_content": true,
+        "is_nested": true,
+        "subfolders": [
+          {
+            "folder": "research/research-2023",
+            "project_id": "research-2023",
+            "project_title": "Research partners 2023",
+            "has_content": true,
+            "subfolders": [
+              {
+                "folder": "research/research-2023/ideación",
+                "count": 14,
+                "files": [
+                  "Slide 4_3 - 1.png", "Slide 4_3 - 2.png", "Slide 4_3 - 3.png",
+                  "Slide 4_3 - 5.png", "Slide 4_3 - 6.png", "Slide 4_3 - 7.png",
+                  "Slide 4_3 - 8.png", "Slide 4_3 - 9.png", "Slide 4_3 - 24.png",
+                  "Slide 4_3 - 25.png", "Slide 4_3 - 26.png", "Slide 4_3 - 27.png",
+                  "Slide 4_3 - 28.png", "Slide 4_3 - 29.png"
+                ]
+              },
+              {
+                "folder": "research/research-2023/partners",
+                "count": 7,
+                "files": [
+                  "Slide 4_3 - 10.png", "Slide 4_3 - 11.png", "Slide 4_3 - 12.png",
+                  "Slide 4_3 - 13.png", "Slide 4_3 - 14.png", "Slide 4_3 - 16.png",
+                  "Slide 4_3 - 17.png"
+                ]
+              },
+              {
+                "folder": "research/research-2023/soluciones",
+                "count": 5,
+                "files": [
+                  "Slide 16_9 - 1.png", "Slide 16_9 - 2.png", "Slide 16_9 - 3.png",
+                  "Slide 16_9 - 4.png", "Slide 16_9 - 5.png"
+                ]
+              }
+            ]
+          },
+          {
+            "folder": "research/research-2024",
+            "project_id": "research-2024",
+            "project_title": "Investigación estratégica 2024",
+            "has_content": true,
+            "subfolders": [
+              {
+                "folder": "research/research-2024/Insights",
+                "count": 6,
+                "files": ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"]
+              },
+              {
+                "folder": "research/research-2024/presentacion",
+                "count": 1,
+                "files": ["Research Estratégico.pdf"],
+                "note": "PDF — definir si se embeds en el sitio o se descarga"
+              }
+            ]
+          },
+          {
+            "folder": "research/research-2025",
+            "project_id": "research-2025",
+            "project_title": "Investigación 2025 MTR",
+            "has_content": true,
+            "count": 11,
+            "files": [
+              "Slide1.jpg", "Slide2.jpg", "Slide3.jpg", "Slide4.jpg", "Slide5.jpg",
+              "Slide6.jpg", "Slide7.jpg", "Slide8.jpg", "Slide9.jpg", "Slide10.jpg", "Slide11.jpg"
+            ]
+          }
+        ]
+      },
+      {
+        "folder": "reportes-html",
+        "project_id": "reportes-html",
+        "project_title": "Reporte HTML",
+        "has_content": true,
+        "count": 1,
+        "files": ["13 - 19 Abril.html"],
+        "note": "Archivo HTML (no imagen) — reporte semanal del 13–19 Abril. Definir año y forma de presentación."
+      },
+      {
+        "folder": "amigo-secreto",
+        "project_id": "amigo-secreto",
+        "project_title": "Amigo Secreto",
+        "has_content": true,
+        "count": 23,
+        "files": [
+          "Amigo Secreto-1.png", "Amigo Secreto-2.png", "Amigo Secreto-3.png",
+          "Amigo Secreto-4.png", "Amigo Secreto-5.png", "Amigo Secreto.png",
+          "Animación - Regalo.png",
+          "Animación - Seguimiento de pedido-1.png", "Animación - Seguimiento de pedido-2.png", "Animación - Seguimiento de pedido.png",
+          "Checkout-1.png", "Checkout-2.png", "Checkout.png",
+          "Detalle de Producto.png",
+          "Enviar regalo-1.png", "Enviar regalo-2.png", "Enviar regalo-3.png",
+          "Enviar regalo-4.png", "Enviar regalo-5.png", "Enviar regalo.png",
+          "Home.png", "Menú.png", "Personalizar regalo.png"
+        ]
+      }
+    ]
+  },
+
+  "other_assets": {
+    "profile": {
+      "folder": "assets/profile/",
+      "files": ["profile-photo.jpeg"]
+    },
+    "logo": {
+      "folder": "assets/logo/",
+      "files": ["personal-logo.png", "starbucks-logo.png"]
+    },
+    "favicon": {
+      "folder": "assets/favicon/",
+      "files": [],
+      "note": "Carpeta vacía — agregar favicon.ico o favicon.png"
+    }
+  },
+
+  "summary": {
+    "total_projects": 12,
+    "projects_with_cover": 12,
+    "projects_missing_cover": 0,
+    "projects_with_screenshots": 9,
+    "projects_with_empty_screenshot_folder": 2,
+    "missing_cover_projects": [],
+    "empty_screenshot_folders": ["ds-starbucks", "ds-multimarca"],
+    "pending_actions": [
+      "Agregar screenshots para DS Starbucks → assets/screenshots/ds-starbucks/",
+      "Agregar screenshots para DS Multimarca → assets/screenshots/ds-multimarca/",
+      "Agregar favicon → assets/favicon/ (no urgente)",
+      "Confirmar año del reporte HTML — referencia de archivo: '13 - 19 Abril.html'",
+      "Definir cómo presentar el PDF de research-2024 (embed vs descarga)",
+      "Verificar si hay más semanas de reportes HTML para agregar"
+    ]
+  }
+}
