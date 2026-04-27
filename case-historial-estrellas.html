@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Historial de estrellas — Case Study. Visualización del historial de acumulación de puntos en el programa de lealtad." />
+  <meta name="description" content="Historial de estrellas — Case Study. Consulta de acumulación, canje y vencimiento de estrellas del programa de lealtad." />
   <title>Historial de estrellas — Miguel Vera</title>
   <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="styles.css" />
@@ -55,13 +55,13 @@
 
         <div class="cs-hero-layout">
           <div class="cs-hero-text">
-            <span class="section-label animate-on-scroll delay-1">App y Web &middot; Loyalty</span>
+            <span class="section-label animate-on-scroll delay-1">Feature case &middot; Loyalty</span>
             <h1 class="cs-hero-title animate-on-scroll delay-2">
               Historial de<br />
               <em>estrellas</em>
             </h1>
             <p class="cs-hero-intro animate-on-scroll delay-3">
-              Visualización del historial de acumulación de puntos dentro del programa de lealtad. Diseño de estados de carga, jerarquía de transacciones y detalle por período.
+              Sección que permite consultar la acumulación, canje y vencimiento de estrellas para dar mayor transparencia al programa de lealtad.
             </p>
           </div>
 
@@ -72,7 +72,7 @@
             </div>
             <div class="cs-meta-item">
               <dt>Categoría</dt>
-              <dd>App y Web</dd>
+              <dd>Feature case</dd>
             </div>
             <div class="cs-meta-item">
               <dt>Plataforma</dt>
@@ -98,61 +98,39 @@
 
 
     <!-- CONTEXTO -->
-    <section class="cs-section">
+    <section class="cs-section case-section feature-context">
       <div class="container container--narrow">
-        <span class="section-label animate-on-scroll">Contexto</span>
-        <h2 class="cs-section-heading animate-on-scroll">Transparencia en el programa de lealtad.</h2>
+        <span class="section-eyebrow animate-on-scroll">Contexto</span>
+        <h2 class="cs-section-heading animate-on-scroll">Contexto</h2>
         <p class="case-text animate-on-scroll">
-          El historial de estrellas es la funcionalidad que comunica transparencia dentro del programa de lealtad: permite al usuario ver cuándo, dónde y cuánto acumuló. Sin esta visibilidad, el programa de puntos se percibe como una caja negra, lo que reduce la confianza y el engagement.
-        </p>
-        <p class="case-text animate-on-scroll">
-          El proyecto diseñó el flujo completo del historial: el acceso desde la pantalla de Rewards, los estados de carga, el listado de transacciones por período y el detalle de cada entrada. El foco estuvo en la legibilidad rápida y el manejo correcto de los estados intermedios.
+          Los usuarios necesitan entender cómo se mueven sus estrellas: cuándo acumulan, cuándo canjean y cuándo están próximas a vencer. Sin esta visibilidad, pueden aparecer dudas, reclamos o baja confianza en el sistema de lealtad.
         </p>
       </div>
     </section>
 
 
-    <!-- EL RETO -->
-    <section class="cs-section cs-section--alt">
-      <div class="container">
-        <div class="cs-two-col">
-          <div class="cs-two-col-text">
-            <span class="section-label animate-on-scroll">El reto</span>
-            <h2 class="cs-section-heading animate-on-scroll">Hacer legible el historial de puntos</h2>
-            <p class="case-text animate-on-scroll">
-              El desafío fue presentar un historial de transacciones de forma clara, rápida de escanear y sin ansiedad de espera. En programas de lealtad, la transparencia genera confianza: el usuario debe poder confirmar que sus estrellas se acreditaron correctamente sin fricciones.
-            </p>
-          </div>
-          <ul class="cs-friction-list animate-on-scroll">
-            <li class="cs-friction-item">
-              <span class="cs-friction-num">01</span>
-              <div><strong>Legibilidad del listado.</strong> Cada transacción debe comunicar en un vistazo: cuándo ocurrió, cuántas estrellas acumuló y a qué compra corresponde.</div>
-            </li>
-            <li class="cs-friction-item">
-              <span class="cs-friction-num">02</span>
-              <div><strong>Estados de carga bien diseñados.</strong> La carga del historial no puede sentirse como un error. Los estados de espera deben comunicar que el sistema está trabajando y que los datos llegarán.</div>
-            </li>
-            <li class="cs-friction-item">
-              <span class="cs-friction-num">03</span>
-              <div><strong>Detalle por período.</strong> El usuario necesita filtrar y entender su acumulación en un período específico (últimos 90 días) sin perder el contexto del total acumulado.</div>
-            </li>
-          </ul>
-        </div>
+    <!-- OBJETIVO DEL FEATURE -->
+    <section class="cs-section cs-section--alt case-section feature-objective">
+      <div class="container container--narrow">
+        <span class="section-eyebrow animate-on-scroll">Objetivo</span>
+        <h2 class="cs-section-heading animate-on-scroll">Objetivo del feature</h2>
+        <p class="case-text animate-on-scroll">
+          Brindar transparencia sobre la acumulación, canje y vencimiento de estrellas, ayudando al usuario a entender sus movimientos y tomar acción antes de perder beneficios.
+        </p>
       </div>
     </section>
 
 
-    <!-- DISEÑO + BANNER + MOCKUP -->
-    <section class="cs-section">
+    <!-- DESCRIPCIÓN DE LA EXPERIENCIA -->
+    <section class="cs-section case-section feature-description">
       <div class="container container--narrow">
-        <span class="section-label animate-on-scroll">Diseño</span>
-        <h2 class="cs-section-heading animate-on-scroll">Del loading al detalle</h2>
+        <span class="section-eyebrow animate-on-scroll">Experiencia</span>
+        <h2 class="cs-section-heading animate-on-scroll">Descripción de la experiencia</h2>
         <p class="case-text animate-on-scroll">
-          Cada estado del historial fue diseñado explícitamente: la pantalla de home como punto de acceso, el estado de carga que comunica actividad, el loader específico del historial y la vista de detalle por período. El diseño priorizó la legibilidad sobre la densidad de información.
+          El historial muestra los movimientos de estrellas del usuario, incluyendo acumulaciones, canjes y vencimientos. También permite consultar actividad reciente y acceder a un desglose de movimientos hasta un máximo de 90 días, según la regla definida para la experiencia.
         </p>
       </div>
 
-      <!-- Banner interno -->
       <div class="container">
         <div class="case-banner animate-on-scroll">
           <img
@@ -165,7 +143,6 @@
         </div>
       </div>
 
-      <!-- Mockup animado — flow -->
       <div class="container">
         <div class="phone-showcase-wrapper animate-on-scroll">
           <div class="phone-mockup">
@@ -197,57 +174,47 @@
     </section>
 
 
-    <!-- IMPACTO -->
-    <section class="cs-section cs-section--alt">
-      <div class="container container--narrow">
-        <span class="section-label animate-on-scroll">Impacto</span>
-        <h2 class="cs-section-heading animate-on-scroll">Resultados</h2>
-        <p class="case-text animate-on-scroll">El diseño del historial buscó reducir la incertidumbre del usuario sobre su acumulación y reforzar la confianza en el programa de lealtad.</p>
+    <!-- MÉTRICAS DE SEGUIMIENTO -->
+    <section class="cs-section cs-section--alt case-section feature-metrics">
+      <div class="container">
+        <span class="section-eyebrow animate-on-scroll">Medición</span>
+        <h2 class="cs-section-heading animate-on-scroll">Métricas de seguimiento</h2>
 
-        <div class="confidentiality-block animate-on-scroll">
-          <p class="confidentiality-label">Confidencialidad</p>
-          <p class="confidentiality-text">Por confidencialidad, los resultados cuantitativos no pueden ser mostrados. El impacto se evidenció en mejoras de claridad, adopción y eficiencia del flujo.</p>
-          <div class="metrics-observed">
-            <p class="metrics-observed-label">Métricas a observar</p>
-            <div class="metric-observe-item">
-              <span class="metric-observe-dot" aria-hidden="true"></span>
-              <p class="metric-observe-text">Frecuencia de acceso al historial y tiempo promedio de sesión en la pantalla.</p>
-            </div>
-            <div class="metric-observe-item">
-              <span class="metric-observe-dot" aria-hidden="true"></span>
-              <p class="metric-observe-text">Reducción de consultas de soporte relacionadas con acreditación de estrellas.</p>
-            </div>
-            <div class="metric-observe-item">
-              <span class="metric-observe-dot" aria-hidden="true"></span>
-              <p class="metric-observe-text">NPS del programa de lealtad y percepción de transparencia del sistema de puntos.</p>
-            </div>
-          </div>
+        <div class="north-metric animate-on-scroll">
+          <h3>Métrica norte</h3>
+          <p>Consulta del historial seguida de una acción de canje o compra.</p>
+        </div>
+
+        <div class="metrics-grid animate-on-scroll">
+          <article class="metric-card">
+            <h3>Métricas de producto</h3>
+            <ul>
+              <li>Reducción de consultas o reclamos sobre estrellas.</li>
+              <li>Canjes posteriores a la revisión del historial.</li>
+              <li>Usuarios activos en Rewards que consultan su historial.</li>
+            </ul>
+          </article>
+          <article class="metric-card">
+            <h3>Métricas de comportamiento</h3>
+            <ul>
+              <li>CTR en "Ver historial de estrellas".</li>
+              <li>Uso de "Ver más" o consulta de movimientos hasta 90 días.</li>
+              <li>Interacción con información de vencimiento de estrellas.</li>
+            </ul>
+          </article>
         </div>
       </div>
     </section>
 
 
-    <!-- APRENDIZAJES -->
-    <section class="cs-section">
+    <!-- PRÓXIMOS PASOS -->
+    <section class="cs-section case-section feature-next-steps">
       <div class="container container--narrow">
-        <span class="section-label animate-on-scroll">Reflexión</span>
-        <h2 class="cs-section-heading animate-on-scroll">Lo que me llevaría a futuro</h2>
-        <div class="cs-learnings animate-on-scroll">
-          <div class="cs-learning-item">
-            <span class="cs-learning-num">1</span>
-            <div>
-              <h3 class="cs-learning-title">Los loaders son experiencia de diseño</h3>
-              <p class="case-text">Un buen estado de carga no solo informa que el sistema está trabajando: reduce la percepción de espera y comunica confianza. En el historial de estrellas, el loader es la primera respuesta que el sistema da al usuario.</p>
-            </div>
-          </div>
-          <div class="cs-learning-item">
-            <span class="cs-learning-num">2</span>
-            <div>
-              <h3 class="cs-learning-title">Transparencia como palanca de confianza</h3>
-              <p class="case-text">Cuando el usuario puede verificar que sus puntos se acreditaron correctamente, la confianza en el programa aumenta. El historial no es un feature secundario: es la prueba visible de que el programa funciona.</p>
-            </div>
-          </div>
-        </div>
+        <span class="section-eyebrow animate-on-scroll">Próximos pasos</span>
+        <h2 class="cs-section-heading animate-on-scroll">Próximos pasos</h2>
+        <p class="case-text animate-on-scroll">
+          Explorar alertas preventivas de estrellas por vencer, mejorar la claridad de los estados de movimiento y medir si la consulta del historial aumenta confianza y canjes.
+        </p>
       </div>
     </section>
 

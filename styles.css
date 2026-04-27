@@ -549,7 +549,7 @@ em {
 }
 
 .hero {
-  padding-block: var(--space-32) var(--space-24);
+  padding-block: var(--space-20) var(--space-16);
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -2981,5 +2981,113 @@ em {
 
   .section--alt .projects-grid--carousel-wrap::after {
     background: linear-gradient(to right, transparent, var(--color-bg-alt));
+  }
+}
+
+/* ============================================================
+   31. FEATURE CASE SECTIONS — estructura homologada
+   ============================================================ */
+
+.section-eyebrow {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: var(--space-3);
+}
+
+.case-section {
+  /* semantic marker — padding inherited from cs-section */
+}
+
+.north-metric {
+  background: var(--color-ink);
+  border-radius: var(--radius-lg);
+  padding: var(--space-10) var(--space-12);
+  margin-top: var(--space-10);
+  margin-bottom: var(--space-8);
+}
+
+.north-metric h3 {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: var(--space-3);
+}
+
+.north-metric p {
+  font-family: var(--font-display);
+  font-size: clamp(var(--text-xl), 2.5vw, var(--text-2xl));
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.feature-metrics .metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+  background: transparent;
+  padding: 0;
+  margin-block: var(--space-8) 0;
+  border-radius: 0;
+}
+
+.metric-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+}
+
+.metric-card h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-base);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+  margin-bottom: var(--space-5);
+  padding-bottom: var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.metric-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.metric-card ul li {
+  font-size: var(--text-sm);
+  color: var(--color-ink-light);
+  line-height: 1.65;
+  font-weight: 300;
+  padding-left: var(--space-5);
+  position: relative;
+}
+
+.metric-card ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-accent);
+}
+
+@media (max-width: 680px) {
+  .feature-metrics .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .north-metric {
+    padding: var(--space-8);
   }
 }
