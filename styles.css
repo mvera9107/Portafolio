@@ -653,7 +653,7 @@ em {
    8. SECCIONES GENERALES / HOME
    ============================================================ */
 .section {
-  padding-block: var(--space-32);
+  padding-block: var(--space-24);
 }
 
 .section-header {
@@ -661,7 +661,7 @@ em {
   align-items: baseline;
   justify-content: space-between;
   gap: var(--space-8);
-  margin-bottom: var(--space-16);
+  margin-bottom: var(--space-10);
 }
 
 .section-label {
@@ -1709,7 +1709,7 @@ em {
    15. CASE STUDY EDITORIAL — cs-*
    ============================================================ */
 .cs-hero {
-  padding-top: var(--space-24);
+  padding-top: var(--space-16);
   padding-bottom: 0;
   border-bottom: 1px solid var(--color-border);
 }
@@ -1783,7 +1783,7 @@ em {
 }
 
 .cs-section {
-  padding-block: var(--space-32);
+  padding-block: var(--space-20);
 }
 
 .cs-section--alt {
@@ -1899,7 +1899,7 @@ em {
 }
 
 .cs-surface {
-  padding-block: var(--space-24);
+  padding-block: var(--space-16);
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -1913,7 +1913,7 @@ em {
   grid-template-columns: 2.5rem 1fr;
   gap: var(--space-8);
   align-items: start;
-  margin-bottom: var(--space-12);
+  margin-bottom: var(--space-8);
 }
 
 .cs-surface-num {
@@ -1959,7 +1959,7 @@ em {
   aspect-ratio: 16 / 8;
   overflow: hidden;
   background: var(--color-bg-alt);
-  margin-block: var(--space-12);
+  margin-block: var(--space-88);
 }
 
 .cs-image-full img {
@@ -1979,7 +1979,7 @@ em {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2px;
-  margin-block: var(--space-12);
+  margin-block: var(--space-8);
   background: var(--color-border);
   overflow: hidden;
 }
@@ -2902,7 +2902,11 @@ em {
 /* Reducir padding de secciones en mobile */
 @media (max-width: 680px) {
   .section {
-    padding-block: var(--space-20);
+    padding-block: var(--space-12);
+  }
+
+  .cs-surface {
+    padding-block: var(--space-10);
   }
 
   .section-header {
