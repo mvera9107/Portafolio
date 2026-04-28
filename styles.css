@@ -1733,6 +1733,10 @@ em {
   margin-bottom: var(--space-8);
 }
 
+.is-hidden {
+  display: none !important;
+}
+
 .cs-hero-title em {
   color: var(--color-accent);
 }
